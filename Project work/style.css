@@ -1,0 +1,73 @@
+header {
+  background-color: lightcoral;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav li {
+  float: right;
+  margin: 10px;
+}
+
+figure {
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+figure:hover {
+  content: "WELCOME TO Vedant CARGO PACKERS & MOVERS";
+  color: peru;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  opacity: 0.5;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+}
+
+footer small {
+  color: blueviolet;
+}
+
+footer nav {
+  width: 30%;
+  float: right;
+}
+
+footer nav ul {
+  list-style-type: none;
+}
+
+footer nav li {
+  margin: 10px;
+  float: left;
+}
+/*# sourceMappingURL=style.css.map */

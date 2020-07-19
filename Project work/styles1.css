@@ -1,0 +1,43 @@
+body {
+  font-family: Comic Sans MS;
+  background-color: #333333;
+}
+header {
+  width: 80%;
+  background-color: black;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+hgroup {
+  width: 70%;
+  float: left;
+}
+nav {
+  width: 40%;
+  float: right;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  float: right;
+  margin-right: 10px;
+}
+
+section {
+  width: 80%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  width: 80%;
+  background-color: black;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+}
