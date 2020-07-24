@@ -2,46 +2,45 @@ header {
   background-color: lightcoral;
   display: flex;
   justify-content: center;
-  text-align: left;
+  text-align: center;
   nav {
-    float: right;
+    float: center;
     ul {
       list-style-type: none;
     }
     li {
-      float: right;
-      margin: 10px;
+      margin: 0px;
+      display: inline-flex;
+      background-color: transparent;
+      padding: 7px;
+      a {
+        text-decoration: none;
+        color: powderblue;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
     }
   }
 }
-figure {
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  &:hover {
-    content: "WELCOME TO Vedant CARGO PACKERS & MOVERS";
-    color: peru;
-    display: flex;
-    align-items: center;
-    transition: opacity 0.5s ease;
-    opacity: 0.5;
-  }
-}
+
 footer {
   display: flex;
   background-color: black;
   small {
+    width: 100%;
     color: blueviolet;
-  }
-  nav {
-    width: 30%;
-    float: right;
-    ul {
-      list-style-type: none;
-    }
-    li {
-      margin: 10px;
-      float: left;
+    margin-top: 10px;
+
+    nav {
+      float: right;
+      margin-right: 20px;
+      ul {
+        list-style-type: none;
+      }
+      li {
+        margin: 0px;
+        display: inline-flex;
+      }
     }
   }
 }
