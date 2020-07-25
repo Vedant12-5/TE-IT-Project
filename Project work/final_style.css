@@ -217,7 +217,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 29vh;
-    background: rgb(46, 43, 43);
+    background: black;
     
     color: white;
     font-family: "", sans-serif;
@@ -266,7 +266,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background: rgb(46, 43, 43);
+  background: black;
   padding-top: .5em;
   color: white;
   font-family: "", sans-serif;
