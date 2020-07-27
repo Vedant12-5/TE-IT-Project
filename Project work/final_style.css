@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat Brush:400,500,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Caveat Brush:400,500,600,700&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -31,7 +31,7 @@ nav {
 
 .nav-links li:hover {
   background-color: white;
-  border-radius: .7em;
+  border-radius: 0.7em;
 }
 
 .nav-links a {
@@ -79,14 +79,14 @@ nav {
   text-align: center;
   padding: 0.5em 1em;
   font-size: 1.5em;
-  margin-top: .5em;
-  margin-bottom: .5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
-.content{
-    margin-top: 1em;
-    margin-bottom: 1em;
-    padding: 0 3em;
+.content {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0 3em;
 }
 
 .transit::after {
@@ -123,7 +123,6 @@ nav {
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
-    overflow-y: hidden;
   }
   .para {
     align-items: center;
@@ -131,9 +130,9 @@ nav {
     justify-content: center;
     font-size: 1.5em;
   }
-  .content{
-      font-size: 1em;
-      padding: 0 0;
+  .content {
+    font-size: 1em;
+    padding: 0 0;
   }
   .image-container div {
     display: flex;
@@ -143,8 +142,8 @@ nav {
 
   .image-container {
     background-color: black;
-    height: 60vh;
-    width: 99vh;
+    height: 99%;
+    width: 100%;
     position: relative;
   }
 
@@ -156,9 +155,9 @@ nav {
   .transit::after {
     content: "WELCOME TO CARGO PACKERS & MOVERS";
     background: black;
-    width: 60vh;
-    height: 60vh;
-    color: white;
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
     display: flex;
     justify-content: center;
     font-size: 10px;
@@ -170,15 +169,16 @@ nav {
     opacity: 0;
     -webkit-transition: opacity 0.5s ease;
     transition: opacity 0.5s ease;
+    opacity: 0.5;
   }
 
   .logo {
     font-size: 1.2em;
-    padding: .5em 1em;
+    padding: 0.5em 1em;
     font-weight: 600;
   }
-  .copyright{
-    margin-bottom: .5em;
+  .copyright {
+    margin-bottom: 0.5em;
   }
 
   .nav-links {
@@ -191,16 +191,16 @@ nav {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    transform: translateX(100%);
+    transform: translateX(-100%);
     transition: transform 0.5s ease-in;
   }
   .nav-links li {
     opacity: 0;
   }
 
-  .nav-links li a{
-      color: white;
-      font-size: 1.2em;
+  .nav-links li a {
+    color: white;
+    font-size: 1.2em;
   }
 
   .nav-links li:hover {
@@ -218,13 +218,12 @@ nav {
     align-items: center;
     height: 29vh;
     background: black;
-    
+
     color: white;
     font-family: "", sans-serif;
     margin-top: 1em;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
   }
-  
 }
 .nav-active {
   transform: translateX(0%);
@@ -250,15 +249,15 @@ nav {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-.border-bottom{
-    border: 1px solid gray;
-    margin: 0 2em;
+.border-bottom {
+  border: 1px solid gray;
+  margin: 0 2em;
 }
 
-.image-bottom{
-    border: 1px solid grey;
-    margin: 0 2em;
-    margin-top: 1em;
+.image-bottom {
+  border: 1px solid grey;
+  margin: 0 2em;
+  margin-top: 1em;
 }
 
 .bottom {
@@ -267,11 +266,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   background: black;
-  padding-top: .5em;
+  padding-top: 0.5em;
   color: white;
   font-family: "", sans-serif;
   margin-top: 1em;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .social {
@@ -279,15 +278,15 @@ nav {
   width: 100%;
   align-content: center;
   justify-content: center;
-  padding-top: .5em;
+  padding-top: 0.5em;
 }
 .loc {
   background: black;
   background-color: black;
 }
-h4{
-  margin-bottom: .5em;
-  margin-top: .2em;
+h4 {
+  margin-bottom: 0.5em;
+  margin-top: 0.2em;
 }
 .social img {
   margin-left: 20px;
@@ -295,14 +294,13 @@ h4{
 }
 .copyright {
   font-size: 13px;
-  padding-bottom: .5em;
-  padding-top: .5em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
   color: rgb(182, 180, 180);
 }
 
-.adress-bottom{
+.adress-bottom {
   border: 1px solid whitesmoke;
   width: 60%;
   margin: 0 6em;
 }
-
