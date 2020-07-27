@@ -141,8 +141,8 @@ nav {
   }
 
   .image-container {
-    background-color: rgb(255, 255, 203);
-    height: 99%;
+    background-color: rgba(255, 255, 255, 0);
+    height: 100%;
     width: 100%;
     position: relative;
   }
@@ -168,7 +168,6 @@ nav {
     opacity: 0;
     -webkit-transition: opacity 0.5s ease;
     transition: opacity 0.5s ease;
-
   }
 
   .logo {
