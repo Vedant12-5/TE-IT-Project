@@ -141,7 +141,7 @@ nav {
   }
 
   .image-container {
-    background-color: yellow;
+    background-color: rgb(255, 255, 203);
     height: 99%;
     width: 100%;
     position: relative;
@@ -154,10 +154,10 @@ nav {
 
   .transit::after {
     content: "WELCOME TO CARGO PACKERS & MOVERS";
-    background: yellow;
+    background: rgb(255, 255, 215);
     width: 100%;
     height: 100%;
-    color: whitesmoke;
+    color: rgb(255, 58, 58);
     display: flex;
     justify-content: center;
     font-size: 10px;
