@@ -154,10 +154,10 @@ nav {
 
   .transit::after {
     content: "WELCOME TO CARGO PACKERS & MOVERS";
-    background: rgb(255, 255, 215);
+    background: rgba(255, 255, 215, 0.425);
     width: 100%;
     height: 100%;
-    color: rgb(255, 58, 58);
+    color: rgb(14, 12, 12);
     display: flex;
     justify-content: center;
     font-size: 10px;
