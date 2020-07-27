@@ -16,7 +16,7 @@ nav {
 .logo {
   color: black;
   text-transform: uppercase;
-  letter-spacing: 6px;
+
   font-size: 3em;
 }
 .nav-links {
@@ -141,7 +141,7 @@ nav {
   }
 
   .image-container {
-    background-color: black;
+    background-color: yellow;
     height: 99%;
     width: 100%;
     position: relative;
@@ -154,7 +154,7 @@ nav {
 
   .transit::after {
     content: "WELCOME TO CARGO PACKERS & MOVERS";
-    background: black;
+    background: yellow;
     width: 100%;
     height: 100%;
     color: whitesmoke;
@@ -162,7 +162,6 @@ nav {
     justify-content: center;
     font-size: 10px;
     align-items: center;
-    background: black;
     position: absolute;
     top: 0;
     left: 0;
