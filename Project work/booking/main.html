@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Booking</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+        <link rel="stylesheet" href="main.css">
+        <script>
+            $(document).ready(function(){
+                $(".check-form").hide();
+                $(".check").css("background","none");
+
+                $(".check").click(function(){
+                    $(".book-form").hide();
+                    $(".check-form").show();
+                    $(".Book").css("background","none");
+                    $(".check").css("background","#fff");
+                });
+
+                $(".Book").click(function(){
+                    $(".book-form").show();
+                    $(".check-form").hide();
+                    $(".Book").css("background","#fff");
+                    $(".check").css("background","none");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <nav>
+        
+            <div class="logo">
+              <h3>Packers And Movers</h3>
+            </div>
+          
+      
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Booking</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+      
+            <div class="burger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+          </nav>
+
+        <div class="container">
+            <div class="Book">
+                Book
+            </div>
+            <div class="check">
+                Check Status
+            </div>
+            <div class="book-form">
+            
+                    <label for="">Name:</label>
+                    <input type="text" class="input"><br>
+        
+               
+                    <label for="">Email:</label>
+                    <input type="text" class="input"><br>
+            
+                    <label for="">Mobile No.</label>
+                    <input type="tel" class="input"><br>
+              
+                    <label for="">Where do you want the Packers and Movers service?</label>
+                    <input type="text" class="input"><br>
+          
+             
+                    <label for="">Where are you shifting?</label>
+                    <input type="text" class="input"><br>
+               
+              
+                    <label>Date</label>
+                    <input type="date" class="input"><br>
+           
+              
+                    <label>What do you want to shift?</label>
+                    <input type="text" class="input"><br>
+            
+              
+                    <label>Please mention all the items</label>
+                    <textarea class="textarea" name="" id="" cols="30" rows="5" placeholder="message..."></textarea><br>
+                
+                    <input type="submit" value="Submit" class="btn">
+            </div>
+
+            <div class="check-form">
+                <label for="check">Enter your token number</label>
+                <input type="text" class="input"><br>
+                <input type="submit" value="Check" class="btn">
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
