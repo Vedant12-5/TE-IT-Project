@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat Brush:400,500,600,700&display=swap");
+*{
+	margin:0px;
+	padding:0px;
+;
+}
+
+
+.menu{
+	height:100px;
+width:100%;
+background: rgba(255, 232, 168, 0.959);
+  font-family: "Caveat Brush", sans-serif;
+
+ 
+}
+.leftmenu
+{
+	width:40%;
+	float: left;
+
+line-height:70px;
+margin-top:10px;
+}
+.leftmenu h3{
+ padding-left:70px;
+font-weight:1000;
+font-size:50px;
+text-align:center;
+
+} 
+.rightmenu
+{
+	width:60%;
+	height:100px;
+
+float:right;
+}
+.rightmenu ul
+{
+	margin-left:200px;
+}
+.rightmenu ul li 
+{font-size:30px;
+	line-height:100px;
+	margin-left:50px;
+	display:inline-block;
+	
+	font-weight:500;
+	color:black;
+	list-style:none;
+}
+.text
+{ margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0 3em;
+  
+}
+.texttwo{
+	text-indent: 100px;
+	word-spacing: 5px;
+
+	
+	
+}
+.img
+{
+	padding:10px;
+	 border-radius: 8px;
+	margin-top:10px;
+	
+}
+.animation{
+	background: #e0ebeb;
+}
+
+.animation ul {
+	margin:150px;
+	padding:50px;
+	width:1200px;
+	display:flex;
+}
+.animation ul li .imagebox
+{
+	width:500px;
+	height:300px;
+	box-sizing:border-box;
+	padding:  10px;
+}
+	.animation ul li .imagebox figure
+	{
+		position:relative;
+		
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}
+		.animation ul li .imagebox figure img
+		{
+			height:100%
+			weidth:100%
+		}
+	.animation ul li .imagebox figure figcaption
+	{
+		position:absolute;
+	
+		top:30px;
+		left:30px;
+		bottom:30px;
+		right:30px;
+		background:#fff;
+		text-align:centre;
+		padding:20px;
+		opacity:0;
+		transition:.5s;
+		transform:translateY(20px);
+		
+		
+	}
+.animation	 ul li .imagebox:hover figure figcaption
+	
+	{
+		opacity:1;
+		transform:translateY(0px);
+	
+
+
+	}
+
+
+.animation ul li .imagebox figure figcaption h1
+{
+	text-align:centre;
+	font-size:40px;
+	margin:0;
+	padding:0;
+}
+
+
+
+
+.border-bottom {
+  border: 1px solid gray;
+  margin: 0 2em;
+}
+
+.image-bottom {
+  border: 1px solid grey;
+  margin: 0 2em;
+  margin-top: 1em;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  padding-top: 0.5em;
+  color: white;
+  font-family: "", sans-serif;
+  margin-top: 1em;
+  letter-spacing: 0.1em;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  padding-top: 0.5em;
+}
+.loc {
+  background: black;
+  background-color: black;
+}
+h4 {
+  margin-bottom: 0.5em;
+  margin-top: 0.2em;
+}
+.social img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.copyright {
+  font-size: 13px;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  color: rgb(182, 180, 180);
+}
+
+.adress-bottom {
+  border: 1px solid whitesmoke;
+  width: 60%;
+  margin: 0 6em;
+}  
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
