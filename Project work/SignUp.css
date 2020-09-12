@@ -1,0 +1,63 @@
+#Login {
+  margin-left: 35%;
+  margin-top: 7%;
+  /* margin-bottom:; */
+  border-radius: 20px;
+  border-style: outset;
+  border-color: #00ced1;
+  border-width: thick;
+}
+#LoginInside {
+  padding: 15px;
+}
+#buttonLogin {
+  width: 100%;
+  height: 35px;
+  font-size: 20px;
+  background-color: #00ced1;
+  color: black;
+  font-weight: bold;
+  font-family: courier;
+  border-radius: 15px;
+}
+span {
+  color: black;
+  font-weight: bold;
+  font-family: courier;
+  font-size: 25px;
+}
+input[type="text"] {
+  height: 35px;
+  font-family: courier;
+  font-weight: bold;
+  font-size: 20px;
+  width: 98%;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+input[type="email"] {
+  height: 35px;
+  font-family: courier;
+  font-weight: bold;
+  font-size: 20px;
+  width: 98%;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+input[type="password"] {
+  height: 35px;
+  font-family: courier;
+  font-weight: bold;
+  font-size: 20px;
+  width: 98%;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+#UserLoginImg {
+  border-radius: 100px;
+  border: 10px;
+  height: 100px;
+  margin-left: 38%;
+  margin-top: 5%;
+  background-color: #00ced1;
+}

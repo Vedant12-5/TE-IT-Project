@@ -124,51 +124,6 @@ nav {
   body {
     overflow-x: hidden;
   }
-  .para {
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    font-size: 1.5em;
-  }
-  .content {
-    font-size: 1em;
-    padding: 0 0;
-  }
-  .image-container div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .image-container {
-    background-color: rgba(255, 255, 255, 0);
-    height: 100%;
-    width: 100%;
-    position: relative;
-  }
-
-  .image-container img {
-    width: 100%;
-    height: 100%;
-  }
-
-  .transit::after {
-    content: "WELCOME TO CARGO PACKERS & MOVERS";
-    background: rgba(0, 0, 0, 0.26);
-    width: 100%;
-    height: 100%;
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    font-size: 10px;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    -webkit-transition: opacity 0.5s ease;
-    transition: opacity 0.5s ease;
-  }
 
   .logo {
     font-size: 1.7em;
@@ -251,62 +206,34 @@ nav {
   border: 1px solid gray;
   margin: 0 2em;
 }
-
-.image-bottom {
-  border: 1px solid grey;
-  margin: 0 2em;
-  margin-top: 1em;
+.receipt {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #96a3a8;
+  height: 90vh;
+  width: 100%;
 }
 
-.bottom {
+.headings {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  background: black;
-  padding-top: 0.5em;
-  color: white;
-  font-family: "", sans-serif;
-  margin-top: 1em;
-  letter-spacing: 0.1em;
+  justify-content: space-around;
+  color: black;
+  background-color: cornflowerblue;
+  width: 50%;
+  height: 80%;
 }
-
-.social {
+.values {
   display: flex;
-  width: 100%;
-  align-content: center;
-  justify-content: center;
-  padding-top: 0.5em;
-}
-.loc {
-  background: black;
-  background-color: black;
-}
-h4 {
-  margin-bottom: 0.5em;
-  margin-top: 0.2em;
-}
-.social img {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.copyright {
-  font-size: 13px;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
-  color: rgb(182, 180, 180);
-}
-
-.admin a {
-  text-decoration-style: none;
-  font-size: 13px;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
-  color: rgb(182, 180, 180);
-}
-
-.adress-bottom {
-  border: 1px solid whitesmoke;
-  width: 60%;
-  margin: 0 6em;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  color: black;
+  background-color: cornflowerblue;
+  width: 50%;
+  height: 80%;
 }
